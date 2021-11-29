@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color picker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jscolor/2.4.0/jscolor.js"></script>
+
+<script>
+
+function myfunction()
+{
+    var inputvar=document.getElementById("inputid").value;
+document.getElementById("demo").style.backgroundColor=inputvar;
+
+}
+
+
+</script>
+</head>
+<body id="demo">
+  
+
+Color: <input value="#38FFD8" data-jscolor="" id="inputid">
+<button onclick="myfunction()">Submit</button>
+</body>
+</html>
